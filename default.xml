@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="master"/>
+
+  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="git://github.com/Freescale" name="freescale"/>
+  <remote fetch="git://git.openembedded.org" name="oe"/>
+  <remote fetch="git://github.com/tpynio" name="meta-freescale-client"/>
+
+  <project remote="meta-freescale-client" revision="master" name="meta-freescale-client" path="sources/meta-mtv-player"/>
+  <project remote="yocto" revision="fido" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="fido" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
+
+  <project remote="oe" revision="fido" name="meta-openembedded" path="sources/meta-openembedded"/>
+
+  <project remote="freescale" revision="fido" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
+  <project remote="freescale" revision="fido" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
+  <project remote="freescale" revision="fido" name="Documentation" path="sources/Documentation"/>
+
+</manifest>
