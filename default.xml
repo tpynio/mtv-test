@@ -8,7 +8,7 @@
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="ssh+git://github.com/Tpynio" name="moc"/>
 
-  <project remote="moc" revision="master" name="mtv-freescale-client" path="sources/mtv">
+  <project remote="moc" revision="master" name="mtv-freescale-client" path="sources/">
     <copyfile dest="build/conf/bblayers.conf" src="conf/bblayers.conf"/>
     <copyfile dest="build/conf/local.conf" src="conf/local.conf"/>
   </project>
