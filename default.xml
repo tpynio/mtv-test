@@ -6,9 +6,8 @@
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://github.com/Freescale" name="freescale"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
-  <remote fetch="git@github.com:tpynio/mtv-test.git" name="meta-freescale-client"/>
 
-  <project remote="meta-freescale-client" revision="master" name="meta-freescale-client" path="sources/meta-mtv-player"/>
+
   <project remote="yocto" revision="fido" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="fido" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
 
