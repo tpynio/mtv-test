@@ -6,7 +6,7 @@
   <!--remote fetch="git://git.yoctoproject.org" name="yocto"/ -->
   <!--remote fetch="git://github.com/Freescale" name="freescale"/>
   <remote fetch="git://git.openembedded.org" name="oe"/ -->
-  <remote fetch="git://git@github.com/Tpynio" name="moc"/>
+  <remote fetch="ssh://git@github.com:tpynio" name="moc"/>
 
   <project remote="moc" revision="master" name="mtv-freescale-client" path="sources/"/>
   <!--project remote="yocto" revision="fido" name="poky" path="sources/poky"/>
